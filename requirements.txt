@@ -6,3 +6,4 @@ bandit
 mysqlclient
 SQLAlchemy
 flask-WTF
+bs4
