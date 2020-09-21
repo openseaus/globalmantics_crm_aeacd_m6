@@ -23,6 +23,7 @@ install:
 # Once containers are up, print them out for logging purposes.
 # Newly added: Script to wait until HTTPS on port 5000 is responding.
 before_script:
+  - "chmod +x wait_for_https.sh"
   - "pylint src/*.py"
   - "bandit src/*.py --skip B101"
   - "pytest --verbose src/test_unit.py"
