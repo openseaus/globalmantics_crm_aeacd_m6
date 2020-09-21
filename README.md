@@ -9,4 +9,4 @@ into the CRM app using the `flask-WTF` package.
     CSRF token that clients use for the next request.
   * `src/old_test_system.py`: Old system tests from previous
     modules are retained here so you can run them and watch
-    them fail. Trigger Travis build.
+    them fail. Trigger Travis build. Test
